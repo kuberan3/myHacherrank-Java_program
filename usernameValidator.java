@@ -28,7 +28,7 @@ public class usernameValidator {
                  }
                  else
                  {
-                     if(!(a[i].charAt(j)>=97 && a[i].charAt(j)<=122) || (a[i].charAt(j)>=65 && a[i].charAt(j)<=90) || (a[i].charAt(j)>=48 && a[i].charAt(j)<=57) || (a[i].charAt(j)=='_'))
+                     if(!((a[i].charAt(j)>=97 && a[i].charAt(j)<=122) || (a[i].charAt(j)>=65 && a[i].charAt(j)<=90) || (a[i].charAt(j)>=48 && a[i].charAt(j)<=57) || (a[i].charAt(j)=='_')))
                      {
                          break;
                      }
